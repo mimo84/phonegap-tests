@@ -30,7 +30,7 @@ var EmployeeView = function (employee) {
       console.log('addToContacts');
       if (!navigator.contacts) {
           navigator.notification.alert(
-              'Contacts not supported',  // message
+              'Contacts not supported'  // message
           );
           return;
       }
